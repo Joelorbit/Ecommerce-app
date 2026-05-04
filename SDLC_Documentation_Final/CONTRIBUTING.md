@@ -47,7 +47,7 @@ The following behaviors are considered unacceptable:
 
 If you experience or witness unacceptable behavior, please report it by:
 
-- Emailing: conduct@company.com
+- Emailing: abitieyuel@gmail.com
 - Creating a private issue on GitHub with details
 - Contacting a project maintainer directly
 
