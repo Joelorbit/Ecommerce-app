@@ -233,3 +233,12 @@ A small, fast and scalable state management solution for React applications. Use
 ---
 
 _This glossary provides definitions for technical terms used throughout the e-commerce mobile application project documentation._
+
+## Contributing to the Glossary
+
+When adding new terms:
+
+1. Add in alphabetical order
+2. Include full form in parentheses for acronyms
+3. Provide clear, concise definitions
+4. Reference related documentation when applicable
