@@ -74,9 +74,8 @@ This license shall be governed by and construed in accordance with the laws of [
 
 For questions about this license or the Software:
 
-- 📧 Email: legal@company.com
-- 🌐 Website: https://company.com/legal
-- 📋 GitHub: [Issues](https://github.com/org/repo/issues)
+- 📧 Email: abitieyuel@gmail.com
+- 📋 GitHub: [Issues](https://github.com/Joelorbit/Ecommerce-app/issues)
 
 ---
 
