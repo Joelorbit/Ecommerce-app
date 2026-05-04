@@ -426,12 +426,14 @@ eas build --platform android --profile production
 #### Build Failures
 
 **iOS Build Issues:**
+
 - Check code signing certificates
 - Verify provisioning profiles
 - Ensure Xcode compatibility
 - Check for deprecated APIs
 
 **Android Build Issues:**
+
 - Verify keystore configuration
 - Check Android manifest
 - Ensure SDK versions compatibility
@@ -440,12 +442,14 @@ eas build --platform android --profile production
 #### Runtime Issues
 
 **API Connection Problems:**
+
 - Verify environment variables
 - Check CORS configuration
 - Validate SSL certificates
 - Test network connectivity
 
 **Database Issues:**
+
 - Check connection strings
 - Verify user permissions
 - Monitor connection pools
@@ -557,3 +561,10 @@ eas build --platform android --profile production
 ---
 
 _This deployment guide ensures consistent, reliable, and secure deployment of the e-commerce mobile application across all environments._
+
+## Quick Reference
+
+- **Production URL:** https://your-app.com
+- **API Documentation:** https://api.your-app.com/docs
+- **Monitoring Dashboard:** https://monitoring.your-app.com
+- **Support Contact:** support@your-app.com
