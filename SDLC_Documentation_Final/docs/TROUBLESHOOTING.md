@@ -163,22 +163,22 @@ npx expo bundle-analyzer
 2. **List Virtualization:**
 
    ```javascript
-   import { FlatList } from 'react-native';
+   import { FlatList } from "react-native";
 
    <FlatList
      data={products}
      renderItem={renderProduct}
-     keyExtractor={item => item.id}
+     keyExtractor={(item) => item.id}
      initialNumToRender={10}
      maxToRenderPerBatch={10}
      windowSize={10}
-   />
+   />;
    ```
 
 3. **Memoization:**
 
    ```javascript
-   import React, { memo } from 'react';
+   import React, { memo } from "react";
 
    const ProductItem = memo(({ product, onPress }) => {
      return (
@@ -311,7 +311,7 @@ ws.send(
     event: "phx_join",
     topic: "realtime:public:products",
     payload: {},
-    ref: "1"
+    ref: "1",
   }),
 );
 ```
@@ -325,13 +325,13 @@ ws.send(
 const handleRealtimeUpdate = (payload) => {
   const { eventType, new: newRecord, old: oldRecord } = payload;
 
-  if (eventType === 'INSERT') {
+  if (eventType === "INSERT") {
     // Handle new record
     updateLocalState(newRecord);
-  } else if (eventType === 'UPDATE') {
+  } else if (eventType === "UPDATE") {
     // Handle updated record
     updateLocalState(newRecord);
-  } else if (eventType === 'DELETE') {
+  } else if (eventType === "DELETE") {
     // Handle deleted record
     removeFromLocalState(oldRecord.id);
   }
@@ -353,10 +353,10 @@ console.log("Payment status:", paymentIntent.status);
 
 // Handle different failure reasons
 switch (paymentIntent.last_payment_error?.code) {
-  case 'card_declined':
+  case "card_declined":
     // Handle card declined
     break;
-  case 'insufficient_funds':
+  case "insufficient_funds":
     // Handle insufficient funds
     break;
   default:
@@ -383,9 +383,9 @@ const refund = await stripe.refunds.create({
 
 // Update order status in database
 await supabase
-  .from('orders')
-  .update({ status: 'refunded' })
-  .eq('payment_intent_id', paymentIntentId);
+  .from("orders")
+  .update({ status: "refunded" })
+  .eq("payment_intent_id", paymentIntentId);
 ```
 
 ---
@@ -403,15 +403,15 @@ const ProductCard = React.memo(({ product }) => {
 });
 
 // Implement lazy loading
-const LazyProductList = lazy(() => import('./ProductList'));
+const LazyProductList = lazy(() => import("./ProductList"));
 
 // Optimize images
-import { Image } from 'expo-image';
+import { Image } from "expo-image";
 <Image
   source={{ uri: product.image }}
   placeholder={blurhash}
   transition={300}
-/>
+/>;
 ```
 
 #### Backend Performance
@@ -420,8 +420,8 @@ import { Image } from 'expo-image';
 // Implement caching
 const cache = new NodeCache({ stdTTL: 600 }); // 10 minutes
 
-app.get('/api/products', async (req, res) => {
-  const cacheKey = 'products';
+app.get("/api/products", async (req, res) => {
+  const cacheKey = "products";
   const cached = cache.get(cacheKey);
 
   if (cached) {
@@ -440,18 +440,18 @@ app.get('/api/products', async (req, res) => {
 
 ```javascript
 // Use React DevTools Profiler
-import { Profiler } from 'react';
+import { Profiler } from "react";
 
 // Monitor component renders
 <Profiler id="ProductList" onRender={onRenderCallback}>
   <ProductList />
-</Profiler>
+</Profiler>;
 
 // Clean up subscriptions
 useEffect(() => {
   const subscription = supabase
-    .channel('products')
-    .on('postgres_changes', handleUpdate)
+    .channel("products")
+    .on("postgres_changes", handleUpdate)
     .subscribe();
 
   return () => {
@@ -507,8 +507,8 @@ const supabase = createClient(supabaseUrl, supabaseAnonKey);
 ```javascript
 // Validate JWT on protected routes
 const authenticateToken = (req, res, next) => {
-  const authHeader = req.headers['authorization'];
-  const token = authHeader && authHeader.split(' ')[1];
+  const authHeader = req.headers["authorization"];
+  const token = authHeader && authHeader.split(" ")[1];
 
   if (!token) {
     return res.sendStatus(401);
@@ -574,10 +574,10 @@ const products: Product[] = await fetchProducts();
 ```javascript
 // jest.config.js
 module.exports = {
-  preset: 'react-native',
-  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+  preset: "react-native",
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
   transformIgnorePatterns: [
-    'node_modules/(?!((jest-)?react-native|@react-native(-community)?|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg))',
+    "node_modules/(?!((jest-)?react-native|@react-native(-community)?|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg))",
   ],
 };
 ```
@@ -635,7 +635,7 @@ const [imageError, setImageError] = useState(false);
 <Image
   source={{ uri: imageError ? fallbackImage : product.image }}
   onError={() => setImageError(true)}
-/>
+/>;
 ```
 
 ---
@@ -648,10 +648,10 @@ const [imageError, setImageError] = useState(false);
 
 ```javascript
 // Sentry error tracking
-import * as Sentry from 'sentry-expo';
+import * as Sentry from "sentry-expo";
 
 Sentry.init({
-  dsn: 'your-sentry-dsn',
+  dsn: "your-sentry-dsn",
   enableInExpoDevelopment: true,
   debug: true,
 });
@@ -661,9 +661,9 @@ Sentry.init({
 
 ```javascript
 // Firebase Performance Monitoring
-import performance from '@react-native-firebase/perf';
+import performance from "@react-native-firebase/perf";
 
-const trace = await performance().startTrace('product_list_load');
+const trace = await performance().startTrace("product_list_load");
 await fetchProducts();
 trace.stop();
 ```
@@ -770,3 +770,28 @@ SELECT count(*) FROM orders;
 ---
 
 _This troubleshooting guide provides comprehensive procedures for diagnosing and resolving issues in the e-commerce mobile application. Regular updates ensure it remains current with system changes._
+
+## Quick Reference
+
+### Emergency Contacts
+
+- **Development Team:** dev@company.com
+- **Infrastructure:** infra@company.com
+- **Security:** security@company.com
+- **Customer Support:** support@company.com
+
+### Useful Commands
+
+```bash
+# Check app logs
+npx expo install --fix
+
+# Restart Metro bundler
+npx react-native start --reset-cache
+
+# Check database connectivity
+npx supabase status
+
+# View real-time logs
+npx supabase logs
+```
