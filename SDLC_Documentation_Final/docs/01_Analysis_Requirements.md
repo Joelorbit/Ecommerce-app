@@ -37,3 +37,23 @@ Develop a mobile e-commerce application that allows users to browse products, ad
 - Occupation: Store Manager
 - Goals: Manage inventory and orders efficiently
 - Pain Points: Manual inventory tracking
+
+## Functional Requirements
+
+### User Management
+
+- Users can register with email and password
+- Users can login and logout
+- Password reset functionality
+
+### Product Management
+
+- Display product catalog
+- Search and filter products
+- View product details
+
+### Cart and Checkout
+
+- Add/remove items from cart
+- View cart summary
+- Secure payment processing
