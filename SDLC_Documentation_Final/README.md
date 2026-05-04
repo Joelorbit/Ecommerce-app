@@ -142,8 +142,8 @@ A comprehensive Software Development Life Cycle (SDLC) documentation package for
 #### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-org/ecommerce-mobile-app.git
-cd ecommerce-mobile-app
+git clone https://github.com/Joelorbit/Ecommerce-app
+cd Ecommerce-app
 ```
 
 #### 2. Install Dependencies
