@@ -325,4 +325,4 @@ _This changelog provides a comprehensive record of all changes made to the e-com
 
 ---
 
-*Last updated: May 3, 2026*
+_Last updated: May 3, 2026_

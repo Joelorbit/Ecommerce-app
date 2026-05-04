@@ -563,6 +563,7 @@ _Thank you for contributing to the E-Commerce Mobile Application! Your efforts h
 - [React Native Documentation](https://reactnative.dev/docs/getting-started)
 - [Supabase Documentation](https://supabase.com/docs)
 - [Expo Documentation](https://docs.expo.dev)
+
 ---
 
-*Last updated: May 3, 2026*
+_Last updated: May 3, 2026_

@@ -309,4 +309,4 @@ _This documentation package provides comprehensive guidance for the development,
 
 ---
 
-*Last updated: May 3, 2026*
+_Last updated: May 3, 2026_

@@ -112,4 +112,4 @@ A: Yes, modifications are allowed, but the license text must be maintained.
 
 ---
 
-*Last updated: May 3, 2026*
+_Last updated: May 3, 2026_
