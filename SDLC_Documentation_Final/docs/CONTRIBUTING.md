@@ -421,13 +421,13 @@ export default MyComponent;
 #### Unit Test Example
 
 ```javascript
-import { render, screen } from '@testing-library/react-native';
-import MyComponent from './MyComponent';
+import { render, screen } from "@testing-library/react-native";
+import MyComponent from "./MyComponent";
 
-describe('MyComponent', () => {
-  it('renders correctly', () => {
+describe("MyComponent", () => {
+  it("renders correctly", () => {
     render(<MyComponent title="Test Title" />);
-    expect(screen.getByText('Test Title')).toBeTruthy();
+    expect(screen.getByText("Test Title")).toBeTruthy();
   });
 });
 ```
@@ -435,19 +435,22 @@ describe('MyComponent', () => {
 #### Integration Test Example
 
 ```javascript
-import { render, fireEvent } from '@testing-library/react-native';
-import LoginScreen from './LoginScreen';
+import { render, fireEvent } from "@testing-library/react-native";
+import LoginScreen from "./LoginScreen";
 
-describe('Login Flow', () => {
-  it('allows user to login', async () => {
+describe("Login Flow", () => {
+  it("allows user to login", async () => {
     render(<LoginScreen />);
-    
-    fireEvent.changeText(screen.getByPlaceholderText('Email'), 'user@example.com');
-    fireEvent.changeText(screen.getByPlaceholderText('Password'), 'password');
-    fireEvent.press(screen.getByText('Login'));
-    
+
+    fireEvent.changeText(
+      screen.getByPlaceholderText("Email"),
+      "user@example.com",
+    );
+    fireEvent.changeText(screen.getByPlaceholderText("Password"), "password");
+    fireEvent.press(screen.getByText("Login"));
+
     await waitFor(() => {
-      expect(mockNavigate).toHaveBeenCalledWith('Home');
+      expect(mockNavigate).toHaveBeenCalledWith("Home");
     });
   });
 });
@@ -485,7 +488,10 @@ Every component or module should have a README with:
  * @returns {number} Total price including tax
  */
 const calculateTotal = (items, taxRate) => {
-  const subtotal = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  const subtotal = items.reduce(
+    (sum, item) => sum + item.price * item.quantity,
+    0,
+  );
   return subtotal * (1 + taxRate);
 };
 ```
@@ -505,7 +511,7 @@ paths:
           schema:
             type: string
       responses:
-        '200':
+        "200":
           description: Successful response
 ```
 
@@ -551,3 +557,9 @@ By contributing to this project, you agree that your contributions will be licen
 ---
 
 _Thank you for contributing to the E-Commerce Mobile Application! Your efforts help make this project better for everyone._
+
+## Additional Resources
+
+- [React Native Documentation](https://reactnative.dev/docs/getting-started)
+- [Supabase Documentation](https://supabase.com/docs)
+- [Expo Documentation](https://docs.expo.dev)
