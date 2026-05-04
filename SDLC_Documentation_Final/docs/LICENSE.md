@@ -98,3 +98,14 @@ When using this Software, please ensure compliance with:
 ---
 
 _This license allows for the free use, modification, and distribution of the Software while protecting the rights of the original authors and contributors._
+
+## License FAQ
+
+**Q: Can I use this software commercially?**
+A: Yes, the MIT License allows commercial use.
+
+**Q: Do I need to include the license text in my distributions?**
+A: Yes, the license text must be included with all copies.
+
+**Q: Can I modify the software?**
+A: Yes, modifications are allowed, but the license text must be maintained.
