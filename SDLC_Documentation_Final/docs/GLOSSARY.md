@@ -242,3 +242,7 @@ When adding new terms:
 2. Include full form in parentheses for acronyms
 3. Provide clear, concise definitions
 4. Reference related documentation when applicable
+
+---
+
+_Last updated: May 3, 2026_
