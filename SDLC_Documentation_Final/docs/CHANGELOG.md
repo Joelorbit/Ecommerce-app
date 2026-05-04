@@ -316,3 +316,9 @@ For questions about this changelog or release process:
 ---
 
 _This changelog provides a comprehensive record of all changes made to the e-commerce mobile application project._
+
+## Additional Notes
+
+- All versions follow semantic versioning
+- Breaking changes are clearly marked
+- Security updates are prioritized
