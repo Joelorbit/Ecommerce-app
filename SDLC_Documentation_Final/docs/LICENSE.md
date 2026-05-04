@@ -109,3 +109,7 @@ A: Yes, the license text must be included with all copies.
 
 **Q: Can I modify the software?**
 A: Yes, modifications are allowed, but the license text must be maintained.
+
+---
+
+*Last updated: May 3, 2026*
