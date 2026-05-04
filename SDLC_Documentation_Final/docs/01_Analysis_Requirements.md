@@ -21,3 +21,19 @@ Develop a mobile e-commerce application that allows users to browse products, ad
 - Shopping cart functionality
 - Secure checkout process
 - Order history and tracking
+
+## User Personas
+
+### Primary User: Shopper Sarah
+
+- Age: 25-45
+- Occupation: Professional
+- Goals: Quick and easy shopping experience
+- Pain Points: Complicated checkout, slow loading
+
+### Secondary User: Admin Alex
+
+- Age: 30-50
+- Occupation: Store Manager
+- Goals: Manage inventory and orders efficiently
+- Pain Points: Manual inventory tracking
