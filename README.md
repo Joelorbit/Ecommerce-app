@@ -2,6 +2,9 @@
 
 A full-stack e-commerce mobile application built with React Native (Expo) and Node.js, featuring real-time inventory management, secure authentication, and cross-platform compatibility.
 
+To download the App:
+<a href="https://expo.dev/artifacts/eas/8qgY6sydxivUMcfM4jTtne.apk">Download apk</a>
+
 ![React Native](https://img.shields.io/badge/React_Native-0.81.5-blue.svg)
 ![Expo](https://img.shields.io/badge/Expo-~54.0.33-black.svg)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)
@@ -84,9 +87,16 @@ A full-stack e-commerce mobile application built with React Native (Expo) and No
 
 ## 📱 Screenshots
 
-| Login Screen                                                           | Product Catalog                                                              | Shopping Cart                                                        | Admin Dashboard                                                        |
-| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| ![Login](https://via.placeholder.com/200x300/4A90E2/FFFFFF?text=Login) | ![Products](https://via.placeholder.com/200x300/50E3C2/FFFFFF?text=Products) | ![Cart](https://via.placeholder.com/200x300/F5A623/FFFFFF?text=Cart) | ![Admin](https://via.placeholder.com/200x300/D0021B/FFFFFF?text=Admin) |
+<div align="center">
+  <img src="screenshots/photo_1_2026-05-04_16-19-06.jpg" alt="App Screenshot 1" width="200"/>
+  <img src="screenshots/photo_3_2026-05-04_16-19-06.jpg" alt="App Screenshot 3" width="200"/>
+  <img src="screenshots/photo_4_2026-05-04_16-19-06.jpg" alt="App Screenshot 4" width="200"/>
+  <img src="screenshots/photo_5_2026-05-04_16-19-06.jpg" alt="App Screenshot 5" width="200"/>
+  <img src="screenshots/photo_6_2026-05-04_16-19-06.jpg" alt="App Screenshot 6" width="200"/>
+  <img src="screenshots/photo_7_2026-05-04_16-19-06.jpg" alt="App Screenshot 7" width="200"/>
+  <img src="screenshots/photo_8_2026-05-04_16-19-06.jpg" alt="App Screenshot 8" width="200"/>
+  <img src="screenshots/photo_9_2026-05-04_16-19-06.jpg" alt="App Screenshot 9" width="200"/>
+</div>
 
 ---
 
