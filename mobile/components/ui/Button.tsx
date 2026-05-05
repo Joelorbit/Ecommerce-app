@@ -1,3 +1,4 @@
+// Reusable Button component for the mobile app
 import React from 'react';
 import { TouchableOpacity, Text, StyleSheet, ActivityIndicator, TouchableOpacityProps } from 'react-native';
 
