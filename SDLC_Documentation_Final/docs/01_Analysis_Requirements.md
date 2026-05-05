@@ -494,7 +494,11 @@ Mike spends weekend browsing multiple categories and gradually building his cart
 6. System saves product to database
 7. Product appears in public catalog
 
+**Postconditions:**
 
+- Product exists in database
+- Product is visible to customers
+- Inventory is updated
 
 </div>
 
