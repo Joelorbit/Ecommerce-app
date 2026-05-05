@@ -18,7 +18,7 @@ app.use('/products', productsRouter);
 app.use('/auth', authRouter);
 app.use('/orders', ordersRouter);
 
-// Health check
+// Health check endpoint for readiness and basic API validation.
 app.get('/', (req, res) => {
   res.json({ message: 'E-commerce API is running' });
 });
