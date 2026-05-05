@@ -4,7 +4,8 @@ const authMiddleware = require('../middleware/auth');
 
 const router = Router();
 
-// All orders routes require authentication
+// Orders routes are protected by auth middleware and expose create/read/update operations.
+// The implementation can use Supabase or a local mock fallback when Supabase is unavailable.
 router.use(authMiddleware);
 
 // ─── In-memory fallback ───────────────────────────────────────────────────────
