@@ -5,6 +5,16 @@ A full-stack e-commerce mobile application built with React Native (Expo) and No
 To download the App:
 <a href="https://expo.dev/artifacts/eas/8qgY6sydxivUMcfM4jTtne.apk" target='_blank'>Download apk</a>
 
+---
+
+## System Design PDF
+
+Download the full system design documentation as a PDF:
+
+- [Download System Design Documentation](./system_design_documentation.pdf)
+
+---
+
 ![React Native](https://img.shields.io/badge/React_Native-0.81.5-blue.svg)
 ![Expo](https://img.shields.io/badge/Expo-~54.0.33-black.svg)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)
@@ -25,8 +35,7 @@ To download the App:
 - [⚙️ Installation](#️-installation)
 - [🏃‍♂️ Running the Application](#️-running-the-application)
 - [🧪 Testing](#-testing)
-- [🚀 Deployment](#-deployment)
-- [📚 Documentation](#-documentation)
+- [🚀 Deployment](#-deployment)- [📥 System Design PDF](#-system-design-pdf)- [📚 Documentation](#-documentation)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 - [🙋‍♂️ Support](#️-support)
@@ -83,9 +92,7 @@ To download the App:
 3. **Supabase** → Handles database operations and real-time subscriptions
 4. **Real-time Updates** → Push changes back to mobile app via WebSocket
 
----
-
-## 📱 Screenshots
+## �📱 Screenshots
 
 <div align="center">
   <img src="screenshots/photo_1_2026-05-04_16-19-06.jpg" alt="App Screenshot 1" width="200"/>
