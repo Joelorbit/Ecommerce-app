@@ -146,8 +146,8 @@ To download the App:
 
 ```
 ecommerce-mobile-app/
-├── 📱 mobile/                    # React Native (Expo) App
-│   ├── app/                      # App screens (file-based routing)
+├── 📱 mobile/                   # React Native App
+│   ├── app/                     # App screens (file-based routing)
 │   │   ├── (tabs)/              # Main app tabs
 │   │   │   ├── index.tsx        # Home/Product catalog
 │   │   │   ├── cart.tsx         # Shopping cart
