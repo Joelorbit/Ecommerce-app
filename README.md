@@ -3,7 +3,7 @@
 A full-stack e-commerce mobile application built with React Native (Expo) and Node.js, featuring real-time inventory management, secure authentication, and cross-platform compatibility.
 
 To download the App:
-<a href="https://expo.dev/artifacts/eas/8qgY6sydxivUMcfM4jTtne.apk" targer='_blank'>Download apk</a>
+<a href="https://expo.dev/artifacts/eas/8qgY6sydxivUMcfM4jTtne.apk" target='_blank'>Download apk</a>
 
 ![React Native](https://img.shields.io/badge/React_Native-0.81.5-blue.svg)
 ![Expo](https://img.shields.io/badge/Expo-~54.0.33-black.svg)
@@ -109,7 +109,7 @@ To download the App:
 - **Language:** TypeScript
 - **State Management:** Zustand
 - **Navigation:** Expo Router (File-based routing)
-- **Styling:** NativeWind (Tailwind CSS)
+- **Styling:** React Native StyleSheet
 - **HTTP Client:** Axios
 - **Storage:** AsyncStorage
 - **Icons:** Lucide React Native
@@ -404,7 +404,7 @@ Once both servers are running, test the API:
 
 ```bash
 # Health check
-curl http://localhost:3000/health
+curl http://localhost:3000/
 
 # Get products
 curl http://localhost:3000/api/products
