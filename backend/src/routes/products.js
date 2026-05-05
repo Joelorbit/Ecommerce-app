@@ -1,6 +1,8 @@
 const { Router } = require('express');
 const { supabase } = require('../supabase');
 
+// Product routes provide list/detail access and allow create/update/delete operations.
+// This module uses Supabase when configured, otherwise it serves mocked product data.
 const router = Router();
 
 // ─── In-memory fallback ───────────────────────────────────────────────────────
