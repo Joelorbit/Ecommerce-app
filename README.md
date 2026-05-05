@@ -11,7 +11,9 @@ To download the App:
 
 Download the full system design documentation as a PDF:
 
-- [Download System Design Documentation](./system_design_documentation.pdf)
+<a href="./system_design_documentation.pdf" download="system_design_documentation.pdf">Download System Design Documentation</a>
+
+> If your browser opens the PDF instead of downloading it, right-click the link and choose "Save link as...".
 
 ---
 
