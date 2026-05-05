@@ -1,3 +1,4 @@
+// Home screen component for the mobile app
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, FlatList, Image, SafeAreaView, ActivityIndicator, ScrollView, TouchableOpacity } from 'react-native';
 import { supabase } from '../../services/supabase';
