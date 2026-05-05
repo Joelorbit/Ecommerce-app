@@ -1,3 +1,4 @@
+// TypeScript configuration for the mobile app
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
