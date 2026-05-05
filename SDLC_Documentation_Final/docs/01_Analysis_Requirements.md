@@ -484,15 +484,7 @@ Mike spends weekend browsing multiple categories and gradually building his cart
 - User has admin role
 - Admin is logged into the app
 
-**Main Flow:**
 
-1. Admin accesses admin panel
-2. Admin selects "Add Product" option
-3. Admin enters product information
-4. System validates product data
-5. Admin uploads product image
-6. System saves product to database
-7. Product appears in public catalog
 
 **Postconditions:**
 
