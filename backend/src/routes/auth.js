@@ -3,6 +3,8 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { supabase } = require('../supabase');
 
+// Auth routes handle registration, login, and profile operations.
+// They support both Supabase-backed storage and a simple in-memory mock fallback.
 const router = Router();
 const JWT_SECRET = process.env.JWT_SECRET || 'fallback_secret_change_me';
 
