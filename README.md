@@ -13,8 +13,6 @@ Download the full system design documentation as a PDF:
 
 <a href="./system_design_documentation.pdf" download="system_design_documentation.pdf">Download System Design Documentation</a>
 
-> If your browser opens the PDF instead of downloading it, right-click the link and choose "Save link as...".
-
 ---
 
 ![React Native](https://img.shields.io/badge/React_Native-0.81.5-blue.svg)
@@ -37,7 +35,9 @@ Download the full system design documentation as a PDF:
 - [⚙️ Installation](#️-installation)
 - [🏃‍♂️ Running the Application](#️-running-the-application)
 - [🧪 Testing](#-testing)
-- [🚀 Deployment](#-deployment)- [📥 System Design PDF](#-system-design-pdf)- [📚 Documentation](#-documentation)
+- [🚀 Deployment](#-deployment)
+- [📥 System Design PDF](#-system-design-pdf)
+- [📚 Documentation](#-documentation)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 - [🙋‍♂️ Support](#️-support)
